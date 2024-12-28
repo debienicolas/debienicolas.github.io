@@ -1,0 +1,44 @@
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.page-content {
+    padding: 30px 0;
+    background-color: #fff;
+}
+  
+
+
+/* Home styles */
+/* ----------------------------------------------------------*/
+
+.home h1 { margin-bottom: 25px; }
+
+.posts { list-style-type: none; }
+
+.posts li { margin-bottom: 30px; }
+
+.posts .post-link {
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.posts .post-date {
+  display: block;
+  font-size: 15px;
+  color: #818181;
+}
+
+/* Add these new styles */
+.post-excerpt {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.post-meta {
+  font-size: 15px;
+  color: #818181;
+}
+

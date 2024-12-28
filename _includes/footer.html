@@ -1,0 +1,43 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper" style="display: flex; justify-content: space-between;">
+      <div class="footer-col" style="flex: 1;">
+        {%- if site.description -%}
+          <p>{{- site.description | escape -}}</p>
+        {%- endif -%}
+      </div>
+      <div class="footer-col" style="flex: 0 0 auto;">
+        <div class="social-links">
+          {%- include social.html -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+.social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-media-list li {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-list li a {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-list .svg-icon {
+  margin-right: 0.3em;
+}
+</style> 
