@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: "Introduction to the blog"
 ---
 
-<div style="text-align:center;"><img src="/assets/against_entropy.svg" width="30%" height="30%" ></div>
+<div style="text-align:center; margin-bottom: 2em;"><img src="/assets/against_entropy.svg" width="30%" height="30%" ></div>
 
 While entropy is a fundamental concept in information theory (where [Shannon](https://en.wikipedia.org/wiki/Entropy_(information_theory)) pioneered its use to measure uncertainty in data transmission), it first emerged in thermodynamics as a way to understand the universal tendency of physical systems to move toward increasing disorder and equilibrium. On a more philosophical level, I like to think of entropy as the idea that constant energy has to be put into a system to maintain or improve it, else the inevitable force of entropy will break it down to return to an equilibrium. Beyond the scientific realm, this concept is a powerful metaphor for understanding progress and maintenance in all aspects of life: any system (physical, intellectual or social) requires constant energy input to maintain and improve, or it will inevitably break down toward its natural equilibrium state.
 
